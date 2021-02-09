@@ -1,0 +1,155 @@
+
+*
+{
+    margin: 0;
+}
+ul .first{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #660000;
+}
+
+li.Y {
+  float: left;
+}
+
+li a.B {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #b3ff99;
+    color:red;
+}
+
+.active {
+  background-color: #9999ff;
+}
+
+header {
+  background-color:black;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-right:0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column1{
+     float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+.column1{
+background-color:#ffe6e6;"
+}
+
+.column2{
+     float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+.column2{
+background-color:#ff8080;"
+}
+
+.column3{
+     float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+.column3{
+background-color:#ffffff;"
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  width: 50%;
+  height: auto;
+  float: left; 
+  max-width: 235px;
+}
+.new {
+    width: 500%;
+    height:200%;
+ 
+}
+.for{
+    text-align: center;
+    color:aqua;
+}
+footer {
+  background-color:#000000;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+nav.link
+ {
+ background-color:white;
+ padding:5px;
+ }
+
+
+ ul li.x
+ {
+ display:inline;
+ padding:4px 4px;
+ background-color:#000033;
+ transition: all 0.7s ease;
+ margin:0 5px;
+ cursor:pointer;
+
+ }
+ ul li:hover
+ {
+ background-color:red;
+ }
+ ul li a
+ {
+ color:#0fff;
+ width=100%;
+ hight=100%;
+ }
+
+
+.end{
+    color:orangered;
+    
+}
+
+p.f{
+ text-align:center;
+ font-size:50px;
+ }
+
